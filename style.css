@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+
+html,
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color:rgba(113, 197, 74, 0.267);
+}
+
+nav {
+    background-color: rgba(10, 80, 4, 0.787);
+    height: 60px;
+}
+
+.navigation-list {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    border-bottom-left-radius: 400px;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px 5px;
+
+}
+
+.nav-list {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+input,
+button {
+    display: block;
+    margin: auto;
+
+}
+
+label {
+    font-size: 26px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    width: 60%;
+    height: 20px;
+    border: 2px solid rgba(113, 197, 74, 0.267);
+}
+
+button {
+    margin-top: 20px;
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: rgba(24, 24, 31, 0.527);
+    color:white;
+}
+
+#underline1,
+#underline2,
+#underline3,
+#underline4 {
+    text-decoration: underline;
+}
+
+#result,
+span {
+
+    margin: auto;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.question-box {
+    background-color: rgb(66, 226, 165);
+    border-radius: 30px;
+    margin: 10px 20px;
+    padding: 5px;
+    text-align: left;
+
+
+}
+
+.options label,
+.options label input {
+    display: inline-block;
+
+}
+.question-container p,.question-container label{
+    font-size:18px;
+}
+#heading-of-quiz{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top:0px;
+}
